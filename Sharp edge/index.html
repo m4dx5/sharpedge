@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SharpEdge Barbershop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header" id="main-header">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="logo.png" alt="Логотип" />
+                </div>
+                <div class="text">
+                    <h1>SharpEdge Barbershop</h1>
+                    <p>Ваш стиль, ваша улыбка</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#stylists" class="nav-link">Мастера</a></li>
+                    <li><a href="#history" class="nav-link">История</a></li>
+                    <li><a href="#directions" class="nav-link">Как добраться</a></li>
+                    <li><a href="#booking" class="nav-link">Записаться</a></li>
+                    <li><a href="gallery.html" class="liink" >Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="header transparent" id="transparent-header">
+        <div class="container">
+            <nav class="nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#stylists" class="nav-link">Мастера</a></li>
+                    <li><a href="#history" class="nav-link">История</a></li>
+                    <li><a href="#directions" class="nav-link">Как добраться</a></li>
+                    <li><a href="#booking" class="nav-link">Записаться</a></li>
+                    <li><a href="gallery.html" class="liink">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Геройский раздел -->
+    <section id="hero" class="hero">
+        <div class="video-container">
+            <video id="heroVideo" autoplay muted loop>
+                <source src="video1.mp4" type="video/mp4">
+                <source src="video1.webm" type="video/webm">
+                Ваш браузер не поддерживает тег video.
+            </video>
+        </div>
+        <div class="hero-content">
+            <h2 class="animate__animated animate__fadeInUp">Подчеркните ваш стиль</h2>
+            <a href="#booking" class="btn btn-primary animate__animated animate__fadeInUp animate__delay-1s">Записаться</a>
+        </div>
+    </section>
+
+    <!-- Раздел услуг -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">Наши популярные услуги</h2>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade">
+                    <img src="haircut.jpg" alt="Стрижка волос">
+                    <h3>Стрижка волос</h3>
+                    <p>От классических до современных стрижек – мы предлагаем широкий выбор услуг по укладке волос.</p>
+                </div>
+                <div class="service-card" data-animate="fade">
+                    <img src="beard.jpg" alt="Оформление бороды">
+                    <h3>Оформление бороды</h3>
+                    <p>Поддержите бороду в порядке с помощью наших профессиональных услуг по её оформлению.</p>
+                </div>
+                <div class="service-card" data-animate="fade">
+                    <img src="color.jpg" alt="Окрашивание волос">
+                    <h3>Окрашивание волос</h3>
+                    <p>Хотите изменить образ? Наши услуги окрашивания волос помогут вам в этом.</p>
+                </div>
+                <div class="service-card" data-animate="fade">
+                    <img src="facial.jpg" alt="Очищение лица">
+                    <h3>Очищение лица</h3>
+                    <p>Расслабьтесь и обновитесь с нашей процедурой очищения лица.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел мастеров -->
+    <section id="stylists" class="stylists section">
+        <div class="container">
+            <h2 class="section-title">Познакомьтесь с нашими мастерами</h2>
+            <div class="stylists-grid">
+                <div class="stylist-card" data-animate="flip">
+                    <img src="stylist1.jpg" alt="Мастер 1">
+                    <h3>Пол Стекс</h3>
+                    <p>Мастер-барбер и эксперт по стилю</p>
+                </div>
+                <div class="stylist-card" data-animate="flip">
+                    <img src="stylist2.jpg" alt="Мастер 2">
+                    <h3>Шон Дик</h3>
+                    <p>Эксперт по бритью и стрижке</p>
+                </div>
+                <div class="stylist-card" data-animate="flip">
+                    <img src="stylist3.jpg" alt="Мастер 3">
+                    <h3>Пол Дес Рейс</h3>
+                    <p>Мастер-барбер и художественный стилист</p>
+                </div>
+                <div class="stylist-card" data-animate="flip">
+                    <img src="stylist4.jpg" alt="Мастер 4">
+                    <h3>Алекс Грин</h3>
+                    <p>Стилист по волосам и бороде</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Раздел истории барбершопа -->
+    <section id="history" class="history section">
+        <div class="container">
+            <h2 class="section-title">История нашего Барбершопа</h2>
+            <p>SharpEdge Barbershop — это место, где сочетаются традиции старинных парикмахерских и современные тренды в уходе за волосами и бородой. Наш барбершоп был основан в 2010 году в центре Симферополя. Мы предлагаем своим клиентам не только стрижки и бритье, но и атмосферу уюта и профессионализма, где каждый может расслабиться и насладиться процессом.</p>
+        </div>
+    </section>
+
+    <!-- Раздел, как добраться -->
+    <section id="directions" class="directions section">
+        <div class="container">
+            <h2 class="section-title">Как добраться</h2>
+            <p>Наш барбершоп расположен в самом центре Симферополя, по адресу: ул. Кирова, 10.</p>
+            <p>Вы можете добраться к нам на общественном транспорте, выйдя на остановке «Центральный рынок» или «Улица Маяковского», которые находятся в нескольких минутах ходьбы от барбершопа.</p>
+            <p>Если вы предпочитаете ехать на автомобиле, то парковка доступна рядом с барбершопом. Мы всегда рады видеть вас!</p>
+        </div>
+    </section>
+
+    <!-- Раздел записи -->
+    <section id="booking" class="booking section">
+        <div class="container">
+            <h2 class="section-title">Запишитесь на прием</h2>
+            <form class="booking-form">
+                <label for="service">Выберите услугу:</label>
+                <select id="service" name="service">
+                    <option value="hair-styling">Стрижка волос</option>
+                    <option value="beard-trim">Оформление бороды</option>
+                    <option value="hair-color">Окрашивание волос</option>
+                    <option value="facial-cleanse">Очищение лица</option>
+                </select>
+                <label for="stylist">Выберите мастера:</label>
+                <select id="stylist" name="stylist">
+                    <option value="paul-stecks">Пол Стекс
+                    <option value="sean-dick">Шон Дик</option>
+                    <option value="paul-des-reis">Пол Дес Рейс</option>
+                    <option value="alex-green">Алекс Грин</option>
+                </select>
+                <label for="appointment-time">Выберите время:</label>
+                <input type="datetime-local" id="appointment-time" name="appointment-time" required>
+                <button type="submit" class="btn btn-primary">Записаться</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SharpEdge Barbershop. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
